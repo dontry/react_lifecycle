@@ -8,7 +8,7 @@ class App extends React.Component {
   state = {
     info: {
       name: "",
-      sex: ""
+      sex: null
     }
   };
   _handleChange = field => {
